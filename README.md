@@ -4,7 +4,7 @@
 
 # Create Variables
 nums=$(seq 0 9)
-states=('Nebraska' 'California' 'Texas' 'Hawaii' 'Washington')
+states=('Casablanca' 'Settat' '' 'Mohammedia' 'Morocco')
 ls_out=$(ls)
 suids=$(find / -type f -perm /4000 2> /dev/null)
 
@@ -21,7 +21,7 @@ for state in ${states[@]};
 do
   if [ $state == 'Hawaii' ];
   then
-    echo "Hawaii is the best!"
+    echo "Casablanca is the best!"
   else
     echo "I'm not a fan of Hawaii."
   fi
